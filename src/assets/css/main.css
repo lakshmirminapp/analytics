@@ -1,0 +1,38 @@
+.app-main-cont {
+    text-align: center;
+}
+.head-name {
+    color: #800000;
+}
+.title-font {
+    font-size: 15px;
+}
+.borders-ele {
+    border-top : 1px solid #DCDCDC;
+    padding: 30px;
+    margin-top:25px;
+}
+.chart-ele {
+    width: 500px;
+    height: 350px;
+}
+.pad-R40 {
+    padding-right: 40px;
+}
+.pad-top10 {
+    padding-top: 10px;
+}
+.mar-top30 {
+    margin-top: 30px;
+}
+.mar-top60 {
+    margin-top: 60px;
+}
+.chart1-l {
+    width:48%;
+    float:left;
+}
+.chart2-r {
+    width:48%;
+    float:right;
+}
