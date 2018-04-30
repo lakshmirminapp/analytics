@@ -26,4 +26,12 @@
       <p-chart type="line" [data]="revenueTrenddata" [options]="options"></p-chart>
     </div>
   </div>
+  <div class="techlist pad-top10">
+    <h3>Technology List</h3>
+      <ul>
+        <li *ngFor="let tech of technology">
+          <span class="badge">{{tech.id}}</span> {{tech.name}}
+        </li>
+      </ul>
+  </div>
 </div>

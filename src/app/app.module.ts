@@ -6,6 +6,7 @@ import {ChartModule, DropdownModule, CalendarModule} from 'primeng/primeng';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { CommonService } from './common.service';
 
 
 @NgModule({
@@ -21,7 +22,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     DropdownModule,
     CalendarModule
   ],
-  providers: [],
+  providers: [CommonService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

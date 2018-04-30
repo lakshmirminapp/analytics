@@ -14,7 +14,7 @@
 }
 .chart-ele {
     width: 500px;
-    height: 350px;
+    /* height: 330px; */
 }
 .pad-R40 {
     padding-right: 40px;
@@ -35,4 +35,21 @@
 .chart2-r {
     width:48%;
     float:right;
+}
+.brder-T {
+    border-top : 1px solid #DCDCDC;
+}
+.techlist{
+    overflow: auto;
+    width: 100%;
+}
+.techlist ul {
+    list-style: none;
+}
+.techlist h3 {
+    color: #008989;
+}
+.techlist li {
+    padding-bottom: 13px;
+    color: #19355B;
 }
