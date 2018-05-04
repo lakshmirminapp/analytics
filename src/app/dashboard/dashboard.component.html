@@ -5,8 +5,12 @@
       <strong>{{dashboardBC}}</strong>
     </span>
     <div class="mar-top30">
-        <span class="pad-R40"><p-calendar [(ngModel)]="startDvalue" dateFormat="dd-mm-yy" readonlyInput="true" [showIcon]="true" (onSelect)="changeDate($event)"></p-calendar></span>
-        <span><p-calendar [(ngModel)]="endDvalue" dateFormat="dd-mm-yy" readonlyInput="true" [showIcon]="true" (onSelect)="changeDate($event)"></p-calendar></span>
+      <span class="pad-R40">
+        <p-calendar [(ngModel)]="startDvalue" dateFormat="dd-mm-yy" readonlyInput="true" [showIcon]="true" (onSelect)="changeDate($event)"></p-calendar>
+      </span>
+      <span>
+        <p-calendar [(ngModel)]="endDvalue" dateFormat="dd-mm-yy" readonlyInput="true" [showIcon]="true" (onSelect)="changeDate($event)"></p-calendar>
+      </span>
     </div>
     <!-- <div class="pad-top10">Number of Orders and Amount of Sales (last year)</div> -->
     <div class="chart-ele mar-top60">
@@ -26,12 +30,20 @@
       <p-chart type="line" [data]="revenueTrenddata" [options]="options"></p-chart>
     </div>
   </div>
-  <div class="techlist pad-top10">
+  <div class="techlist pad-top10 mar-botm50">
     <h3>Technology List</h3>
-      <ul>
-        <li *ngFor="let tech of technology">
-          <span class="badge">{{tech.id}}</span> {{tech.name}}
-        </li>
-      </ul>
+    <ul>
+      <li *ngFor="let tech of technology">
+        <span class="badge">{{tech.id}}</span> {{tech.name}}
+      </li>
+    </ul>
+  </div>
+  <div class="detailBtnContainer">
+    <div class="mar-top30" align="center">
+      <div>Click to view analytical detail</div>
+      <div class="mar-top10">
+        <button class="btn-cls" routerLink="/detail">View Detail</button>
+      </div>
+    </div>
   </div>
 </div>

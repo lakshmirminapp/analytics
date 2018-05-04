@@ -10,7 +10,6 @@
 .borders-ele {
     border-top : 1px solid #DCDCDC;
     padding: 30px;
-    margin-top:25px;
 }
 .chart-ele {
     width: 500px;
@@ -22,11 +21,17 @@
 .pad-top10 {
     padding-top: 10px;
 }
+.mar-top10 {
+    margin-top:10px;
+}
 .mar-top30 {
     margin-top: 30px;
 }
 .mar-top60 {
     margin-top: 60px;
+}
+.mar-botm50 {
+    margin-bottom: 50px;
 }
 .chart1-l {
     width:48%;
@@ -41,7 +46,10 @@
 }
 .techlist{
     overflow: auto;
-    width: 100%;
+    width: 50%;
+    border:1px solid #DCDCDC;
+    float:left;
+    height:400px;
 }
 .techlist ul {
     list-style: none;
@@ -52,4 +60,20 @@
 .techlist li {
     padding-bottom: 13px;
     color: #19355B;
+}
+.detailBtnContainer {
+    width: 40%;
+    float:right;
+    border:1px solid #DCDCDC;
+    height:400px;
+}
+.btn-cls {
+    color: white;
+    border: none;
+    background: maroon;
+    border-radius: 5px;
+    padding: 10px;
+    width: auto;
+    text-shadow: none;
+    text-transform: uppercase;
 }

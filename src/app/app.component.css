@@ -1,0 +1,11 @@
+.navCls {
+    margin-top: 20px;
+    padding: 10px 10px 10px 15px;
+}
+nav a {
+    color: maroon;
+    border:1px solid #E5E5E5;
+    background: #E5E5E5;
+    padding: 10px;
+    width: auto;
+}
