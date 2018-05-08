@@ -77,3 +77,28 @@
     text-shadow: none;
     text-transform: uppercase;
 }
+#multiselectDropdownId .dropdown-menu {
+    display: grid !important;
+    width: 35%;
+}
+#multiselectDropdownId ss-multiselect-dropdown button {
+    width: 35%;
+}
+
+.details-L {
+    display: inline-block;
+    width: 25%;
+    border:1px solid #DCDCDC;
+    overflow: auto;
+    height: 400px;
+}
+.details-R {
+    width: 70%;
+    border:1px solid #DCDCDC;
+    height: 400px;
+    display: inline-block;
+    overflow: auto
+}
+.detail-chart-cont {
+    width: 50%;
+}
