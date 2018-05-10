@@ -238,10 +238,21 @@ export class DetailComponent implements OnInit {
             y: 4,
             drilldown: 'day7'
           },
-          ['Week2', 2],
-          ['Week3', 5],
-          ['Week4', 2],
-          ['Week5', 8]
+          {
+            name: 'Week2',
+            y: 5,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week3',
+            y: 3,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week4',
+            y: 9,
+            drilldown: 'day7'
+          }
           ]
         },
         {
@@ -252,10 +263,26 @@ export class DetailComponent implements OnInit {
             y: 6,
             drilldown: 'day7'
           },
-          ['Week2', 4],
-          ['Week3', 3],
-          ['Week4', 9],
-          ['Week5', 8]
+          {
+            name: 'Week2',
+            y: 4,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week3',
+            y: 6,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week4',
+            y: 9,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week5',
+            y: 2,
+            drilldown: 'day7'
+          }
           ]
         },
         {
@@ -266,10 +293,21 @@ export class DetailComponent implements OnInit {
             y: 6,
             drilldown: 'day7'
           },
-          ['Week2', 4],
-          ['Week3', 3],
-          ['Week4', 9],
-          ['Week5', 8]
+          {
+            name: 'Week2',
+            y: 7,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week3',
+            y: 2,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week4',
+            y: 3,
+            drilldown: 'day7'
+          }         
           ]
         },
         {
@@ -280,10 +318,26 @@ export class DetailComponent implements OnInit {
             y: 6,
             drilldown: 'day7'
           },
-          ['Week2', 4],
-          ['Week3', 8],
-          ['Week4', 9],
-          ['Week5', 8]
+          {
+            name: 'Week2',
+            y: 5,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week3',
+            y: 4,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week4',
+            y: 9,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week5',
+            y: 8,
+            drilldown: 'day7'
+          }
           ]
         },
         {
@@ -294,10 +348,26 @@ export class DetailComponent implements OnInit {
             y: 6,
             drilldown: 'day7'
           },
-          ['Week2', 4],
-          ['Week3', 3],
-          ['Week4', 9],
-          ['Week5', 8]
+          {
+            name: 'Week2',
+            y: 3,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week3',
+            y: 9,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week4',
+            y: 4,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week5',
+            y: 8,
+            drilldown: 'day7'
+          }
           ]
         },
         {
@@ -308,11 +378,26 @@ export class DetailComponent implements OnInit {
             y: 6,
             drilldown: 'day7'
           },
-          ['Week2', 4],
-          ['Week3', 6],
-          ['Week4', 9],
-          ['Week5', 8],
-          ['Week5', 9]
+          {
+            name: 'Week2',
+            y: 5,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week3',
+            y: 8,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week4',
+            y: 9,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week5',
+            y: 6,
+            drilldown: 'day7'
+          }
           ]
         },
         {
@@ -323,11 +408,21 @@ export class DetailComponent implements OnInit {
             y: 6,
             drilldown: 'day7'
           },
-          ['Week2', 4],
-          ['Week3', 3],
-          ['Week4', 9],
-          ['Week5', 9],
-          ['Week5', 9]
+          {
+            name: 'Week2',
+            y: 5,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week3',
+            y: 9,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week4',
+            y: 2,
+            drilldown: 'day7'
+          }
           ]
         },
         {
@@ -338,11 +433,26 @@ export class DetailComponent implements OnInit {
             y: 6,
             drilldown: 'day7'
           },
-          ['Week2', 10],
-          ['Week3', 6],
-          ['Week4', 8],
-          ['Week5', 8],
-          ['Week5', 9]
+          {
+            name: 'Week2',
+            y: 2,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week3',
+            y: 8,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week4',
+            y: 5,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week5',
+            y: 4,
+            drilldown: 'day7'
+          }         
           ]
         },
         {
@@ -353,11 +463,21 @@ export class DetailComponent implements OnInit {
             y: 6,
             drilldown: 'day7'
           },
-          ['Week2', 3],
-          ['Week3', 6],
-          ['Week4', 8],
-          ['Week5', 8],
-          ['Week5', 12]
+          {
+            name: 'Week2',
+            y: 15,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week3',
+            y: 12,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week4',
+            y: 9,
+            drilldown: 'day7'
+          }
           ]
         },
         {
@@ -365,14 +485,29 @@ export class DetailComponent implements OnInit {
           name: 'Nov',
           data: [{
             name: 'Week1',
-            y: 6,
+            y: 16,
             drilldown: 'day7'
           },
-          ['Week2', 3],
-          ['Week3', 5],
-          ['Week4', 9],
-          ['Week5', 18],
-          ['Week5', 12]
+          {
+            name: 'Week2',
+            y: 15,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week3',
+            y: 4,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week4',
+            y: 9,
+            drilldown: 'day7'
+          },
+          {
+            name: 'Week5',
+            y: 6,
+            drilldown: 'day7'
+          }         
           ]
         },
         {
@@ -401,16 +536,6 @@ export class DetailComponent implements OnInit {
           {
             name: 'Week5',
             y: 3,
-            drilldown: 'day7'
-          },
-          {
-            name: 'Week6',
-            y: 7,
-            drilldown: 'day7'
-          },
-          {
-            name: 'Week7',
-            y: 2,
             drilldown: 'day7'
           }
           ]
